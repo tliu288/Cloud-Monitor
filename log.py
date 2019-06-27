@@ -15,9 +15,9 @@ from email import encoders
 mail_content = '''Log file has been sent
 '''
 #The mail addresses and password
-sender_address = 'leonliu.elite@gmail.com'
-sender_pass = 'ilovekadaj'
-receiver_address = 'leonliu288@gmail.com'
+sender_address = 'username@gmail.com'
+sender_pass = 'password'
+receiver_address = 'username@gmail.com'
 #Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address
