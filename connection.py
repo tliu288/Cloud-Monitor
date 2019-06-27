@@ -24,9 +24,9 @@ while 1:
   	 The monitor has crashed. Please restart.
   	 '''
   	 #The mail addresses and password
-  	 sender_address = 'leonliu.elite@gmail.com'
-  	 sender_pass = 'ilovekadaj'
-  	 receiver_address = 'leonliu288@gmail.com'
+  	 sender_address = 'username@gmail.com'
+  	 sender_pass = 'password'
+  	 receiver_address = 'username@gmail.com'
   	 #Setup the MIME
   	 message = MIMEMultipart()
   	 message['From'] = sender_address
